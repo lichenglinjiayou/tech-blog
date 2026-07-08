@@ -1,0 +1,15 @@
+baseURL = "https://lichenglinjiayou.github.io/tech-blog/"
+languageCode = "zh-cn"
+title = "My Tech Blog"
+theme = "PaperMod"
+
+[params]
+  description = "Personal tech blog"
+  author = "CHENGLIN LI"
+
+[menu]
+  main = [
+    {identifier = "home", name = "Home", url = "/", weight = 1},
+    {identifier = "posts", name = "Archives", url = "/posts/", weight = 2},
+    {identifier = "tags", name = "Tags", url = "/tags/", weight = 3},
+  ]
